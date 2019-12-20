@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 export default class Testimonials extends Component {
   render() {
-    let GaithData = this.props.GaithData;
+    let DataDev = this.props.DataDev;
     return (
       <section id="testimonials">
         <div className="text-container">
@@ -13,7 +13,7 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    GaithData.testimonials && GaithData.testimonials.map((item)=>{
+                    DataDev.testimonials && DataDev.testimonials.map((item)=>{
                       return(
                         <li>
                           <blockquote>
